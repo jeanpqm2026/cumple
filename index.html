@@ -54,7 +54,7 @@ button:focus-visible{outline:3px solid #fff;outline-offset:3px}
 </div>
 
 <script>
-const texto = "¡Feliz cumpleaños, Ana Lucía!";
+const texto = "¡Feliz cumpleaños, Lucy!";
 const h = document.getElementById("t");
 [...texto].forEach((ch,i)=>{const s=document.createElement("span");s.textContent=ch===" "?"\u00A0":ch;s.style.animationDelay=(i*0.07)+"s";s.setAttribute("aria-hidden","true");h.appendChild(s)});
 
